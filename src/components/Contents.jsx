@@ -1,4 +1,4 @@
-import profile from "../assets/4x6.jpg";
+import profile from "../assets/profile-photo.jpg";
 import program from "../assets/program.jpg";
 import epicclone from "../assets/epic-clone.png";
 import netflixclone from "../assets/netflix-clone.png";
@@ -20,15 +20,21 @@ import {
 const Contents = () => {
   return (
     <div className="page-content text-white min-w-[600px]">
-      <div className="home flex bg-[#16324F] items-center pr-8 font-small justify-between text-2xl gap-8">
+      <div
+        className="home flex bg-[#16324F] items-center pr-8 font-small justify-between text-2xl gap-8"
+        id="home"
+      >
         <img
           src={program}
-          alt=""
+          alt="programming"
           className="w-[65%] h-[40rem] rounded-r-[18rem]  object-cover"
         />
         <div>Someone Interested in Frontend Developer</div>
       </div>
-      <div className="about flex flex-col bg-[#13293D] items-center justify-center pt-2 pl-6 pr-6 ">
+      <div
+        className="about flex flex-col bg-[#13293D] items-center justify-center pt-2 pl-6 pr-6 "
+        id="aboutMe"
+      >
         <div className="text-xl font-medium mb-2">About Me</div>
         <img
           src={profile}
@@ -43,7 +49,10 @@ const Contents = () => {
           programming and other
         </div>
       </div>
-      <div className="skillset  bg-[#16324F] flex items-center flex-col p-4">
+      <div
+        className="skillset  bg-[#16324F] flex items-center flex-col p-4"
+        id="skillSet"
+      >
         <span>Skillset</span>
         <ul className="flex justify-center gap-2 mt-2 items-center">
           <li>
@@ -63,7 +72,10 @@ const Contents = () => {
           </li>
         </ul>
       </div>
-      <div className="bg-[#13293D] flex flex-col items-center p-4">
+      <div
+        className="bg-[#13293D] flex flex-col items-center p-4"
+        id="myProject"
+      >
         <span>My Project</span>
 
         <div className="myproject flex justify-center p-6 gap-5 ">
@@ -84,7 +96,10 @@ const Contents = () => {
         </div>
       </div>
 
-      <div className="contact bg-[#16324F] flex flex-col items-center p-4">
+      <div
+        className="contact bg-[#16324F] flex flex-col items-center p-4"
+        id="contact"
+      >
         <span>Social Media</span>
 
         <p className="mt-2">Find me in :</p>
