@@ -19,7 +19,7 @@ import {
 
 const Contents = () => {
   return (
-    <div className="page-content text-white w-full min-w-[600px]">
+    <div className="page-content text-white w-full min-w-[360px]">
       <div
         className="home flex bg-[#16324F] items-center pr-8 font-small justify-between text-2xl gap-8"
         id="home"
@@ -27,7 +27,7 @@ const Contents = () => {
         <img
           src={program}
           alt="programming"
-          className="max-w-[50%] h-[40rem] rounded-r-[18rem]  object-cover"
+          className="max-w-[40%] md:max-w-[50%] h-[25rem] md:h-[40rem]  rounded-r-[18rem]  object-cover "
         />
         <div>Someone Interested in Frontend Developer</div>
       </div>
